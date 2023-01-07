@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "BRUTE Reloader",
+    "description": "Give your F5 a rest (for some CTU students)",
+    "version": "1.0",
+    "action": {
+        "default_popup": "popup/popup.html",
+        "default_icon": "images/logo-16.jpg"
+    },
+    "icons": {
+        "16": "images/logo-16.jpg",
+        "32": "images/logo-32.jpg",
+        "48": "images/logo-48.jpg",
+        "128": "images/logo-128.jpg"
+    },
+    "content_scripts": [
+        {
+            "js": [
+                "scripts/index.js"
+            ],
+            "matches": [
+                "https://cw.felk.cvut.cz/brute/student/course/*"
+            ]
+        }
+    ],
+    "permissions": [
+        "storage"
+    ]
+}
