@@ -2,8 +2,8 @@
 
 Not gonna pay for Google Web Store Developer Account, so here are steps to install:
 
-1. Download extension
-2. Extract everything to any directory (W: Ensure there is a `manifest.json` file in root directory)
-3. Go to [chrome://extensions/](chrome://extensions/) if you're using Chrome, cry otherwise
+1. [Download extension](https://github.com/ExposedCat/ctu-brute-reloader/archive/refs/tags/v1.0.zip)
+2. Extract directory somewhere
+3. Go to `chrome://extensions` if you're using Chrome, cry otherwise
 4. Enable `Developer Mode` in the top right-hand corner
-5. Click `Load unpacked`, choose created directory
+5. Click `Load unpacked`, choose extracted directory
